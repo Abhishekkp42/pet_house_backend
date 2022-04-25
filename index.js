@@ -11,7 +11,7 @@ const petsController = require('./src/controllers/pets.controller')
 const {register,login} = require('./src/controllers/auth.controller')
 
 
-app.use('/petServiceInfo',petsController)
+app.use('/pethouse',petsController)
 
 app.post('/register',register)
 app.post('/login',login)
